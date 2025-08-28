@@ -1,0 +1,9 @@
+project(CurvesApp)
+
+add_executable(curves_app
+    src/main.cpp
+)
+
+target_link_libraries(curves_app curves_lib)
+
+install(TARGETS curves_app DESTINATION bin)
